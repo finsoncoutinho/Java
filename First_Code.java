@@ -1,6 +1,6 @@
 package com.fin;
 
-public class Main {
+public class First_Code {
 
     public static void main(String[] args) {
 	
