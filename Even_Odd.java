@@ -1,7 +1,7 @@
 package com.fin;
 import java.util.Scanner;
 
-public class evenodd {
+public class Even_Odd {
     public static void main(String[] args) {
         System.out.print("Enter number: ");
         Scanner sc= new Scanner(System.in);
