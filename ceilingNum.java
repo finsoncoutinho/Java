@@ -3,16 +3,19 @@ package com.fin;
 public class ceilingNum {
 
     public static void main(String[] args) {
-        int target = 3;
+        int target = 15;
         int[] arr={1,5,9,14,17,20};
 
-        int ans=binarySearch(arr,target);
+        int ans=ceiling(arr,target);
         System.out.println(ans);
     }
-    public static int binarySearch(int[] arr, int target){
+
+    // return the index of smalled num >= target
+    public static int ceiling(int[] arr, int target){
         int start=0,end=arr.length;
 
         while(start<=end){
+            // start+(end-start)/2; is better than start+end/2 when the array is too big
             int mid = start+((end-start)/2);
 
             if(target<arr[mid]){
@@ -25,6 +28,7 @@ public class ceilingNum {
                 return mid;
             }
         }
+
         return start;
     }
 
