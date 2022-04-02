@@ -13,6 +13,10 @@ public class ceilingNum {
     // return the index of smalled num >= target
     public static int ceiling(int[] arr, int target){
         int start=0,end=arr.length;
+        
+        if(target>arr[arr.length-1]){
+            return -1;
+        }
 
         while(start<=end){
             // start+(end-start)/2; is better than start+end/2 when the array is too big
