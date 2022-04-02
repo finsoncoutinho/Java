@@ -1,7 +1,8 @@
 package com.fin;
 
 import java.util.Scanner;
-public class Marks {
+
+public class Percentage_Calculator {
 
     public static void main(String[] args) {
 
