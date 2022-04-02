@@ -1,7 +1,7 @@
 package com.fin;
 import java.util.Scanner;
 
-public class exp1 {
+public class Counting_Occurence {
     public static void main(String[] args) {
         System.out.print("Enter Number: ");
         Scanner sc= new Scanner(System.in);
